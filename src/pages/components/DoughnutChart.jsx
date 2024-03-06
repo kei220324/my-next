@@ -1,14 +1,20 @@
+// 'use client';
 import React from "react";
 import { Chart, registerables } from "chart.js";
 import { Pie } from "react-chartjs-2";
 Chart.register(...registerables);
 
-const DoughnutChart = ({ expenceItems }) => {
+const DoughnutChart = ({ year, month, expenceItems }) => {
+  // 現在の月と年に基づいて支出アイテムをフィルタリング
+  const filteredExpenseItems = (expenceItems || []).filter(
+    (item) => item.year === year && item.month === month
+  );
+
   const chartData = {
-    labels: expenceItems.map((item) => item.text),
+    labels: filteredExpenseItems.map((item) => item.text),
     datasets: [
       {
-        data: expenceItems.map((item) => item.amount),
+        data: filteredExpenseItems.map((item) => item.amount),
         backgroundColor: [
           "rgba(255, 99, 132, 0.6)",
           "rgba(255, 206, 86, 0.6)",
@@ -27,7 +33,7 @@ const DoughnutChart = ({ expenceItems }) => {
         position: "right",
         align: "center",
         labels: {
-          usePointStyle: true, 
+          usePointStyle: true,
         },
       },
     },
@@ -35,7 +41,6 @@ const DoughnutChart = ({ expenceItems }) => {
 
   return (
     <div>
-      <h1>DoughnutChart</h1>
       <div style={{ width: "300px", margin: "0 auto" }}>
         <Pie data={chartData} options={options} />
       </div>
