@@ -2,8 +2,8 @@ import React from "react";
 import { useSession, signIn,signOut} from "next-auth/react";
 import { useRouter } from "next/router";
 
-import { useEffect } from "react";
-const HomePage = () => {
+// import { useEffect } from "react";
+export default function HomePage  ()  {
   const router = useRouter();
   const { data: session } = useSession();
 
@@ -48,4 +48,4 @@ const HomePage = () => {
 }
 
 
-export default HomePage;
+// export default HomePage;

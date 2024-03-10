@@ -148,7 +148,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 
-const EditItem = () => {
+export default function EditItem ()  {
   const [inputValue, setInputValue] = useState("");
   const [amount, setAmount] = useState("");
   const router = useRouter();
@@ -262,4 +262,4 @@ const EditItem = () => {
   );
 };
 
-export default EditItem;
+// export default EditItem;
