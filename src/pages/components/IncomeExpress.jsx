@@ -1,14 +1,14 @@
 const IncomeExpress = ({ incomeItems, expenceItems, year, month }) => {
-
+  
   const totalIncomeItems = incomeItems.filter(
     (item) => item.year === year && item.month === month
   );
-  
 
 
   const totalExpenceItems = expenceItems.filter(
     (item) => item.year === year && item.month === month
   );
+  
   const incomeImounts = totalIncomeItems.map((incomeItem) => incomeItem.amount);
   const incomeTotal = incomeImounts.reduce((acc, cur) => (acc += cur), 0);
 

@@ -8,7 +8,10 @@ const EditItem = () => {
   // selectedItemはAddItemから遷移するときに表示されてる内容と金額の値を取得
   const { selectedItem } = router.query;
 
-  // テキストと金額の変更ハンドラー
+  
+
+
+// テキストと金額の変更ハンドラー
   const handleTextChange = (e) => {
     setInputValue(e.target.value);
   };
@@ -20,6 +23,7 @@ const EditItem = () => {
   // パラメータを文字列からオブジェクトに変換
   const parsedSelectedItem = selectedItem ? JSON.parse(selectedItem) : {};
 
+
   // 編集対象のアイテムが選択された場合、そのアイテムの情報をセット
   useEffect(() => {
     if (parsedSelectedItem) {
@@ -27,6 +31,14 @@ const EditItem = () => {
       setAmount(parsedSelectedItem.amount || "");
     }
   }, []);
+  // useEffect(() => {
+  //   if (parsedSelectedItem) {
+  //     // ページ初期化時にのみ実行
+  //     setInputValue(parsedSelectedItem.text || "");
+  //     setAmount(parsedSelectedItem.amount || "");
+  //   }
+  // }, []);
+
 
   const handleUpdate = () => {
     // 更新処理
@@ -47,7 +59,6 @@ const EditItem = () => {
     const updatedIncomeItems = storedIncomeItems.map((item) =>
       item.text === parsedSelectedItem.text
         ? { ...item, ...updatedValue }
-
         : item
     );
 
@@ -137,5 +148,3 @@ const EditItem = () => {
 };
 
 export default EditItem;
-
-
