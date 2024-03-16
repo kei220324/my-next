@@ -1,4 +1,7 @@
 const IncomeExpress = ({ incomeItems, expenceItems, year, month }) => {
+    // incomeItems と expenceItems が未定義である場合に備えて、デフォルト値を設定する
+    incomeItems = incomeItems || [];
+    expenceItems = expenceItems || [];
  
   
   const totalIncomeItems = incomeItems.filter(
@@ -6,13 +9,10 @@ const IncomeExpress = ({ incomeItems, expenceItems, year, month }) => {
   );
 
 
-
-
-
  const totalExpenceItems = expenceItems.filter(
     (item) => item.year === year && item.month === month
   );
-  console.log(totalExpenceItems )
+ 
 
   
  
