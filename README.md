@@ -7,6 +7,8 @@
 
 
 <img width="1470" alt="スクリーンショット 2024-03-21 18 52 51" src="https://github.com/kei220324/my-next/assets/112589811/723e72b9-ace7-4a9d-b749-3ef37a5ed883">
+<img width="1470" alt="スクリーンショット 2024-03-21 7 43 23" src="https://github.com/kei220324/my-next/assets/112589811/030efbab-e5c0-4941-bf19-daf4c7dc2277">
+
 <img width="1470" alt="スクリーンショット 2024-03-21 7 43 49" src="https://github.com/kei220324/my-next/assets/112589811/65c26023-2e55-430a-b6f2-3c117bffdb94">
 
 
