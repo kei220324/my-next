@@ -1,20 +1,10 @@
 import React from "react";
-import { useSession, signIn,signOut} from "next-auth/react";
 import { useRouter } from "next/router";
 
-// import { useEffect } from "react";
-export default function HomePage  ()  {
-  const router = useRouter();
-  const { data: session } = useSession();
-
-
-  const handleSignIn = () => {
-    // 認証が未確認または未認証の場合にのみ signIn を呼ぶ
-    if (session) {
-      signIn("github", {
-        callbackUrl: "http://localhost:3000/components/Home",
-      });
-    }
+export default function HomePage() {
+  const handleGoToAnotherPage = () => {
+    // 指定されたURLに遷移する
+    router.push("/components/Home");
   };
 
   return (
@@ -23,29 +13,15 @@ export default function HomePage  ()  {
         <div className="text-white text-center">
           <h1 className="font-bold text-4xl mb-6">シンプルな家計簿アプリ</h1>
           <p className="text-lg mb-8">収支を簡単に管理しましょう</p>
+          {/* ページ間の遷移用のリンク */}
           <button
-            onClick={() =>
-              signIn("github", {
-                callbackUrl: "http://localhost:3000/components/Home",
-              })
-            }
-            type="button"
-            className="bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-500 font-medium rounded-lg text-sm px-6 py-3 inline-flex items-center"
+            onClick={handleGoToAnotherPage}
+            className="text-lg bg-white text-black px-4 py-2 rounded-md"
           >
-            Sign in with Github
+            収支を管理する
           </button>
         </div>
       </div>
     </div>
   );
-  if (session) {
-    // 認証されている場合の処理
-    return <p>Welcome, {session.user.name}!</p>;
-  } else {
-    // 認証されていない場合の処理1️⃣
-    return <p>Please sign in to access this content.</p>;
-  }
 }
-
-
-// export default HomePage;

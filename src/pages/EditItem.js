@@ -31,13 +31,7 @@ const EditItem = () => {
       setAmount(parsedSelectedItem.amount || "");
     }
   }, []);
-  // useEffect(() => {
-  //   if (parsedSelectedItem) {
-  //     // ページ初期化時にのみ実行
-  //     setInputValue(parsedSelectedItem.text || "");
-  //     setAmount(parsedSelectedItem.amount || "");
-  //   }
-  // }, []);
+
 
 
   const handleUpdate = () => {

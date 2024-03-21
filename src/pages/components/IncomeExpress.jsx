@@ -1,22 +1,16 @@
 const IncomeExpress = ({ incomeItems, expenceItems, year, month }) => {
-    // incomeItems と expenceItems が未定義である場合に備えて、デフォルト値を設定する
-    incomeItems = incomeItems || [];
-    expenceItems = expenceItems || [];
- 
-  
+  // incomeItems と expenceItems が未定義である場合に備えて、デフォルト値を設定する
+  incomeItems = incomeItems || [];
+  expenceItems = expenceItems || [];
+
   const totalIncomeItems = incomeItems.filter(
     (item) => item.year === year && item.month === month
   );
 
-
- const totalExpenceItems = expenceItems.filter(
+  const totalExpenceItems = expenceItems.filter(
     (item) => item.year === year && item.month === month
   );
- 
 
-  
- 
-  
   const incomeImounts = totalIncomeItems.map((incomeItem) => incomeItem.amount);
   const incomeTotal = incomeImounts.reduce((acc, cur) => (acc += cur), 0);
 
