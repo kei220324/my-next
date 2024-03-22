@@ -1,10 +1,6 @@
 import React from "react";
 
-import { useRouter } from "next/router";
-
 const Header = ({ year, month, setYear, setMonth }) => {
-  const router = useRouter();
-
   const handlePrevMonth = () => {
     if (month === 1) {
       setMonth(12);

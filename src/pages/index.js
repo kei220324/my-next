@@ -2,6 +2,7 @@ import React from "react";
 import { useRouter } from "next/router";
 
 export default function HomePage() {
+  const router = useRouter();
   const handleGoToAnotherPage = () => {
     // 指定されたURLに遷移する
     router.push("/components/Home");
