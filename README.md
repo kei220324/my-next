@@ -21,8 +21,15 @@ https://my-next-lovat.vercel.app/
 -   Next.js
 -   tailwind css
 -   Vercel
+-   chart.js
   
 #  機能一覧
+- 　収支の追加、表示
+- 　月毎に管理
+- 　収入、支出と残高の計算
+- 　編集、削除機能
+- 　円グラフで支出の可視化
+
 
 
 
