@@ -17,8 +17,11 @@ https://my-next-lovat.vercel.app/
 収支を管理するボタンをクリックすると収支管理アプリに遷移します。
 
 #  使用技術
--  "react": "18.2.0"
--   Next.js:14.1.4
+-   react
+-   Next.js
+-   tailwind css
+-   Vercel
+  
 
 
 
