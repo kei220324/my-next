@@ -13,6 +13,7 @@
 # 1.サイト概要
 月々の収支を管理できるアプリを作成しました。
 URL:https://my-next-lovat.vercel.app/
+<img width="1470" alt="スクリーンショット 2024-03-30 16 57 58" src="https://github.com/kei220324/my-next/assets/112589811/e5b99e2e-5156-4691-a1f1-52d5ac418ff0">
 
 
 
