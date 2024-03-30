@@ -8,15 +8,6 @@
 レスポンシブ対応してるので、スマホからもご確認頂けます。
 
 
-#  使用技術
--   react
--   Next.js
--   tailwind css
--   Vercel
--   chart.js
-
-
-
 
 # 1.サイト概要
 URL:https://my-next-lovat.vercel.app/
@@ -42,6 +33,13 @@ URL:https://my-next-lovat.vercel.app/
 <br>
 <br>
 自分の消費傾向を客観的に分析し、改善策を見つけ出すことができます。
+
+#  使用技術
+-   react
+-   Next.js
+-   tailwind css
+-   Vercel
+-   chart.js
 
 
 
