@@ -13,8 +13,8 @@
 
 月々の収支を管理できるアプリを作成しました。
 
-#  URL
-https://my-next-lovat.vercel.app/
+
+URL:https://my-next-lovat.vercel.app/
 
 
 
