@@ -7,11 +7,9 @@
 
 レスポンシブ対応してるので、スマホからもご確認頂けます。
 
+#1 サイト概要
 
 
-<img width="1470" alt="スクリーンショット 2024-03-21 7 43 23" src="https://github.com/kei220324/my-next/assets/112589811/030efbab-e5c0-4941-bf19-daf4c7dc2277">
-
-<img width="1470" alt="スクリーンショット 2024-03-21 7 43 49" src="https://github.com/kei220324/my-next/assets/112589811/65c26023-2e55-430a-b6f2-3c117bffdb94">
 
 月々の収支を管理できるアプリを作成しました。
 
@@ -26,6 +24,10 @@ https://my-next-lovat.vercel.app/
 
 
 
+
+<img width="1470" alt="スクリーンショット 2024-03-21 7 43 23" src="https://github.com/kei220324/my-next/assets/112589811/030efbab-e5c0-4941-bf19-daf4c7dc2277">
+
+<img width="1470" alt="スクリーンショット 2024-03-21 7 43 49" src="https://github.com/kei220324/my-next/assets/112589811/65c26023-2e55-430a-b6f2-3c117bffdb94">
 
 
 
