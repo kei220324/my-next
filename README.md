@@ -33,7 +33,8 @@ URL:https://my-next-lovat.vercel.app/
 <br>
 <br>
 自分の消費傾向を客観的に分析し、改善策を見つけ出すことができます。
-
+<br>
+<br>
 #  使用技術
 -   react
 -   Next.js
