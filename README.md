@@ -8,6 +8,14 @@
 レスポンシブ対応してるので、スマホからもご確認頂けます。
 
 
+#  使用技術
+-   react
+-   Next.js
+-   tailwind css
+-   Vercel
+-   chart.js
+
+
 
 
 # 1.サイト概要
@@ -45,12 +53,7 @@ URL:https://my-next-lovat.vercel.app/
 
 
 
-#  使用技術
--   react
--   Next.js
--   tailwind css
--   Vercel
--   chart.js
+
   
 #  機能一覧
 - 　収支の追加、表示
