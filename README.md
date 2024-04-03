@@ -1,6 +1,13 @@
 #  シンプル家計簿アプリ
 
 <img width="1470" alt="スクリーンショット 2024-03-21 18 52 51" src="https://github.com/kei220324/my-next/assets/112589811/723e72b9-ace7-4a9d-b749-3ef37a5ed883">
+
+
+
+
+# 1.サイト概要
+URL:https://my-next-lovat.vercel.app/
+
 個人向けの家計簿アプリです。　
 
 月々毎に管理することができ、収支を把握することができます。
@@ -8,11 +15,6 @@
 レスポンシブ対応してるので、スマホからもご確認頂けます。
 
 
-
-# 1.サイト概要
-URL:https://my-next-lovat.vercel.app/
-
-月々の収支を管理できるアプリを作成しました。
 
 <img width="1470" alt="スクリーンショット 2024-03-30 17 03 55" src="https://github.com/kei220324/my-next/assets/112589811/239f5ff6-c622-478d-a3f4-759b0268a444">
 <br>
