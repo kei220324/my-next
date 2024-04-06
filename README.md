@@ -8,10 +8,6 @@
 
 
 
-<img width="1470" alt="スクリーンショット 2024-03-21 18 52 51" src="https://github.com/kei220324/my-next/assets/112589811/723e72b9-ace7-4a9d-b749-3ef37a5ed883 ">
-=======
-
-<img width="1470" alt="スクリーンショット 2024-03-21 18 52 51" src="https://github.com/kei220324/my-next/assets/112589811/723e72b9-ace7-4a9d-b749-3ef37a5ed883">
 
 
 
