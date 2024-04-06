@@ -16,12 +16,6 @@ const AddItems = ({
   const [isEditing, setIsEditing] = useState(false);
   const [editingIndex, setEditingIndex] = useState(null);
 
-
-
-
-
-
-
   // 収支の種類を選択するためのイベントハンドラー
   const typeHandler = (e) => {
     setType(e.target.value);
@@ -67,10 +61,6 @@ const AddItems = ({
     setEditingIndex(null);
   };
 
-
-
-  
-
   useEffect(() => {
     // ローカルストレージからデータを読み込んで state を更新
     const storedIncomeItem =
@@ -91,9 +81,6 @@ const AddItems = ({
   const filteredExpenseItems = (expenceItems || []).filter(
     (item) => item.year === year && item.month === month
   );
-
-
-
 
   return (
     <>

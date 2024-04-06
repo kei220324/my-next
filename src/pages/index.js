@@ -12,7 +12,7 @@ export default function HomePage() {
     <div>
       <div className="bg-cover bg-gradient-to-r from-green-400 to-blue-500 min-h-screen flex items-center justify-center">
         <div className="text-white text-center">
-          <h1 className="font-bold text-4xl mb-6">シンプルな家計簿アプリ</h1>
+          <h1 className="font-bold text-4xl mb-6">シンプルな収支管理アプリ</h1>
           <p className="text-lg mb-8">収支を簡単に管理しましょう</p>
           {/* ページ間の遷移用のリンク */}
           <button
