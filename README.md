@@ -40,7 +40,6 @@ URL:https://my-next-lovat.vercel.app/
 # 3.使用技術
 
 ### フロントエンド
-<br>
 Next.js "13.4.9"
 <br>
 React   "18.2.0"
@@ -48,8 +47,7 @@ React   "18.2.0"
 Tailwind "3.3.2"
 <br>
 ### その他
-<br>
- Github
+Github
 # ４.機能一覧
 * 収入、支出の表示、編集、削除　（CRUD処理）
 * 支出のグラフ表示
