@@ -46,6 +46,9 @@ React   "18.2.0"
 <br>
 Tailwind "3.3.2"
 <br>
+### インフラ
+vercel
+
 ### その他
 Github
 # ４.機能一覧
